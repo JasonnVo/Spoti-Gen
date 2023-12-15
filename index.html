@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="module" src="main.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <title> Spoti-Gen </title>
+</head>
+  <body>
+    <!-- Hero and video-->
+    <div class="hero">
+      <div id="video-container">
+        <video autoplay muted loop>
+          <source src="video.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <!-- Nav bar -->
+      <nav>
+        <ul>
+          <li><a href="#" id="home-link" class="nav-bar">Home</a></li>
+          <li><a href="#" id="release-link" class="nav-bar">New Releases</a></li>
+          <li><a href="#" id="generator-link" class="nav-bar">Playlist Generator</a></li>
+        </ul>
+      </nav>
+
+      <!-- Title -->
+      <div class="title">
+        <h1>SPOTI-GEN</h1>
+      </div>
+    </div>
+
+
+  
+    <!-- main content view -->
+    <div class="content"> 
+      <div id="curr-view">
+        <h1 style ="color:rgb(179, 144, 179)"> Home View </h1>
+        <p>This is the Home View.</p>
+      </div>
+    </div>
+
+
+    <!-- footer -->
+    <div id="footer"> 
+      <center>
+        <p id="footer-content"> </p>
+      </center>
+      <script> 
+        const foot = document.getElementById('footer-content');
+        const now = new Date();
+        foot.innerHTML = `${now.toLocaleDateString()} &nbsp;&nbsp;&nbsp; ${now.toLocaleTimeString()}`;
+      </script>
+    </div>
+  </body>
+</html>

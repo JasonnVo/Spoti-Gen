@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(29, 10, 34);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* VIDEO CSS */
+#video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* HERO and NAV bar CSS */
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+/* implement CSS for nav bar items */
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+/* TITLE CSS */
+.title {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.title h1 {
+    font-size: 160px;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.title h1:hover {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+/* Curr View and Footer CSS */
+#curr-view {
+    margin-top: 150px;
+    margin-left: 40px;
+    color: white;
+}
+
+#footer{
+    margin-top: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: xx-large;
+    color: white;
+}
+
+/* views CSS */ 
+.release-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(66, 44, 73);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+.gen-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(66, 44, 73);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+.saved-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(66, 44, 73);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+h3 {
+    color: rgb(179, 144, 179);
+    font-size: 39px;
+    text-decoration: underline;
+}
+
+#list {
+    list-style: none;
+    padding: 0;
+}
+
+#saved-list {
+  list-style: none;
+  padding: 0;
+}
+
+.crud-button {
+  margin-right: 10px;
+}
