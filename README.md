@@ -67,7 +67,7 @@ Single paged web application that uses the spotify API to grab new album release
     - For the MongoDB database, my current code has my own cluster URL + password.
     - To create your own URL, navigate to the MongoDB website, create a cluster, create a password, and replace line 6 in memcrud.js with your URL.
 - RUNNING THE APPLICATION
-    - To run the application, open the terminal and type “node server/memcrud.js”, and it should output:
+    - To run the application, open the terminal and type “node memcrud.js”, and it should output:
         
         ```jsx
         Connected successfully to MongoDB!
