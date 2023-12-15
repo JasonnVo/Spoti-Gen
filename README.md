@@ -9,7 +9,7 @@ Single paged web application that uses the spotify API to grab new album release
     - Client → (styles.css, index.html, crud.js, generatorView.js, homeView.js, main.js, releaseView.js, video.mp4)
     - node_modules → (node items)
     - Server → (memcrud.js)
-- **Client folder:**
+- **Client:**
     - styles.css
         - This file contains all the CSS styling for the project. I separated everything with comments based on the code's function. For example, the video CSS, hero and navbar CSS, title CSS, etc.
     - Index.html
@@ -28,9 +28,9 @@ Single paged web application that uses the spotify API to grab new album release
         - This file includes the code for the new release tab. It fetches recent album release data from Spotify and then renders it on the screen. This is also where I implemented local storage.
     - Video.mp4
         - This file is just the video played on the home screen.
-- Node_modules folder:
+- **Node_modules folder:**
     - This folder contains node.js data.
-- Server Folder:
+- **Server:**
     - memcrud.js
         - This file contains all the server-side code for the application. It uses express routes and MongoDB to perform CRUD operations and save data to the database successfully.
 
